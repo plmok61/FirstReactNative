@@ -39,3 +39,8 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
+
+#android stuff I don't need
+__tests__/index.android.js
+android/
+index.android.js
