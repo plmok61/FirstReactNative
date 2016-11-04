@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import Hello from './components/Hello';
 
 export default class FirstReactNative extends Component {
   render() {
@@ -26,6 +27,7 @@ export default class FirstReactNative extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        <Hello />
       </View>
     );
   }
